@@ -1,0 +1,201 @@
+{
+    "results": [
+        {
+            "id": 939243,
+            "genre_ids": [
+                28,
+                878,
+                35,
+                10751
+            ],
+            "release_date": "2024-12-19",
+            "title": "Sonic the Hedgehog 3"
+        },
+        {
+            "id": 762509,
+            "genre_ids": [
+                12,
+                10751,
+                16
+            ],
+            "release_date": "2024-12-18",
+            "title": "Mufasa: The Lion King"
+        },
+        {
+            "id": 558449,
+            "genre_ids": [
+                28,
+                12,
+                18
+            ],
+            "release_date": "2024-11-05",
+            "title": "Gladiator II"
+        },
+        {
+            "id": 912649,
+            "genre_ids": [
+                28,
+                878,
+                12
+            ],
+            "release_date": "2024-10-22",
+            "title": "Venom: The Last Dance"
+        },
+        {
+            "id": 1241982,
+            "genre_ids": [
+                16,
+                12,
+                10751,
+                35
+            ],
+            "release_date": "2024-11-21",
+            "title": "Moana 2"
+        },
+        {
+            "id": 402431,
+            "genre_ids": [
+                18,
+                10749,
+                14
+            ],
+            "release_date": "2024-11-20",
+            "title": "Wicked"
+        },
+        {
+            "id": 839033,
+            "genre_ids": [
+                16,
+                14,
+                28,
+                12
+            ],
+            "release_date": "2024-12-05",
+            "title": "The Lord of the Rings: The War of the Rohirrim"
+        },
+        {
+            "id": 1156593,
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "release_date": "2024-12-26",
+            "title": "Your Fault"
+        },
+        {
+            "id": 845781,
+            "genre_ids": [
+                28,
+                14,
+                35
+            ],
+            "release_date": "2024-10-31",
+            "title": "Red One"
+        },
+        {
+            "id": 970450,
+            "genre_ids": [
+                28,
+                27,
+                53
+            ],
+            "release_date": "2024-12-04",
+            "title": "Werewolves"
+        },
+        {
+            "id": 1035048,
+            "genre_ids": [
+                28,
+                878,
+                53
+            ],
+            "release_date": "2024-11-07",
+            "title": "Elevation"
+        },
+        {
+            "id": 823219,
+            "genre_ids": [
+                16,
+                14,
+                12
+            ],
+            "release_date": "2024-01-30",
+            "title": "Flow"
+        },
+        {
+            "id": 1005331,
+            "genre_ids": [
+                53,
+                28
+            ],
+            "release_date": "2024-12-05",
+            "title": "Carry-On"
+        },
+        {
+            "id": 1214667,
+            "genre_ids": [
+                99
+            ],
+            "release_date": "2023-12-06",
+            "title": "Making Squid Game: The Challenge"
+        },
+        {
+            "id": 1043905,
+            "genre_ids": [
+                28,
+                18,
+                53
+            ],
+            "release_date": "2024-12-11",
+            "title": "Dirty Angels"
+        },
+        {
+            "id": 933260,
+            "genre_ids": [
+                27,
+                878
+            ],
+            "release_date": "2024-09-07",
+            "title": "The Substance"
+        },
+        {
+            "id": 533535,
+            "genre_ids": [
+                28,
+                35,
+                878
+            ],
+            "release_date": "2024-07-24",
+            "title": "Deadpool & Wolverine"
+        },
+        {
+            "id": 1010581,
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "release_date": "2023-06-08",
+            "title": "My Fault"
+        },
+        {
+            "id": 1235623,
+            "genre_ids": [
+                28,
+                18
+            ],
+            "release_date": "2024-07-21",
+            "title": "Eye for an Eye 2"
+        },
+        {
+            "id": 1184918,
+            "genre_ids": [
+                16,
+                28,
+                878,
+                10751
+            ],
+            "release_date": "2024-09-12",
+            "title": "The Wild Robot"
+        }
+    ]
+}
