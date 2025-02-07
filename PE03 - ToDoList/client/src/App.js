@@ -1,24 +1,38 @@
 import './App.css';
-import React, { useState } from "react";
+import React, { useState, useEffect, useReducer } from "react";
 
 function App() {
   return (
    <TodoApp />
   );
 }
+const taskReducer = (state, action) => {
+  switch (action.type) {
+    case 'ADD_TASK':
+      return [...state, action.payload];
+    case 'DELETE_TASK':
+      return state.filter((_, index) => index !== action.payload);
+    default:
+      return state;
+  }
+};
 const TodoApp = () => {
-  const [tasks, setTasks] = useState([]);
+  const [tasks, dispatch] = useReducer(taskReducer, []);
   const [task, setTask] = useState("");
+
+  useEffect(() => {
+    console.log("Tasks have been updated:", tasks);
+  }, [tasks]);
 
   const addTask = () => {
     if (task.trim() !== "") {
-      setTasks([...tasks, task]);
+      dispatch({ type: 'ADD_TASK', payload: task });
       setTask(""); // Clear input field
     }
   };
 
   const deleteTask = (index) => {
-    setTasks(tasks.filter((_, i) => i !== index));
+    dispatch({ type: 'DELETE_TASK', payload: index });
   };
 
   return (
